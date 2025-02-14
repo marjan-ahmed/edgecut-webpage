@@ -1,24 +1,18 @@
-body{
-
+/* General Styles */
+body {
     margin: 0px;
     box-sizing: border-box;
-
 }
 
-button{
-
+button {
     cursor: pointer;
-
 }
 
-li{
-
+li {
     cursor: pointer;
-
 }
 
-#navbar-li{
-
+#navbar-li {
     list-style-type: none;
     float: left;
     margin-top: 9px;
@@ -27,96 +21,74 @@ li{
     margin-left: 25px;
     font-size: 20px;
     cursor: pointer;
-
+    display: block;
 }
 
-#site-logo-li{
-
-    
+#site-logo-li {
     list-style-type: none;
     float: left;
     font-family: poppins;
     font-size: 30px;
     font-weight: bolder;
     cursor: pointer;
-
 }
 
-#navbar-li:hover{
-
+#navbar-li:hover {
     transform: translateY(-4px);
     transition: 0.3s;
     border-bottom: 5px solid black;
-
 }
 
-#navbar-li:not(:hover){
-
+#navbar-li:not(:hover) {
     transition: 0.3s;
     border-bottom: 0px solid black;
-
 }
 
-#site-logo-li:hover{
-
+#site-logo-li:hover {
     rotate: -5deg;
     transition: 0.3s;
-
 }
 
-#site-logo-li:not(:hover){
-
+#site-logo-li:not(:hover) {
     transition: 0.3s;
-
 }
 
-.navbar-main{
-
+.navbar-main {
     display: flex;
     height: 10vh;
-
 }
 
-.fir-body{
-
+.fir-body {
     margin-top: 10vh;
     background-color: rgb(245, 240, 240);
     width: 85%;
     margin-left: 5%;
     height: 65vh;
-
 }
 
-#fir-body-h1{
-
+#fir-body-h1 {
     font-family: poppins;
-    font-weight:  800;
+    font-weight: 800;
     padding-top: 100px;
     margin-left: 100px;
-
 }
 
-#fir-body-p{
-
+#fir-body-p {
     margin-left: 100px;
     font-size: 20px;
     font-family: poppins;
-    font-weight:  800;
+    font-weight: 800;
     margin-top: -20vh;
-
 }
 
-#fir-body-img{
-
+#fir-body-img {
     width: 550px;
     height: 350px;
     margin-left: 48vw;
     margin-top: -20vh;
-    
 }
 
-#fir-body-btn{
-
+#fir-body-btn {
     font-family: poppins;
     width: 120px;
     height: 40px;
@@ -127,11 +99,9 @@ li{
     border-radius: 6px;
     font-weight: 900;
     color: white;
-
 }
 
-#fir-body-btn-2{
-
+#fir-body-btn-2 {
     font-family: poppins;
     width: 120px;
     height: 40px;
@@ -142,179 +112,136 @@ li{
     border-radius: 6px;
     font-weight: 900;
     color: white;
-
 }
 
-#fir-body-btn:hover{
-
+#fir-body-btn:hover {
     background-color: transparent;
     border: 1px solid rgb(249, 114, 114);
     color: rgb(249, 114, 114);
     transition: 0.3s;
-
 }
 
-#fir-body-btn:not(:hover){
-
+#fir-body-btn:not(:hover) {
     transition: 0.3s;
- 
 }
 
-#fir-body-btn-2:hover{
-
+#fir-body-btn-2:hover {
     background-color: transparent;
     border: 1px solid rgb(85, 85, 254);
     color: rgb(85, 85, 254);
     transition: 0.3s;
-
 }
 
-#fir-body-btn-2:not(:hover){
-
+#fir-body-btn-2:not(:hover) {
     transition: 0.3s;
- 
 }
 
-section{
-
-    padding:50px;
-
+section {
+    padding: 50px;
 }
 
-#our-furniture-h1{
-
+#our-furniture-h1 {
     font-family: poppins;
     font-size: 40px;
     margin-left: 80px;
-
 }
 
-#our-furniture-p{
-
+#our-furniture-p {
     margin-left: 80px;
     font-family: poppins;
-
-
 }
 
-.our-furniture-grid-container{
-
+.our-furniture-grid-container {
     padding-top: 60px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#our-furniture-grid-img{
-
+#our-furniture-grid-img {
     width: 250px;
     height: 250px;
     margin-top: 4vh;
     margin-left: 22%;
     cursor: pointer;
-
 }
 
-.our-furniture-grid-img-container{
-
+.our-furniture-grid-img-container {
     background-color: rgb(247, 247, 247);
     margin: 20px;
     height: 50vh;
-
 }
 
-#our-furniture-h3{
-
+#our-furniture-h3 {
     font-family: poppins;
     margin-left: 20px;
     font-weight: bold;
-
 }
 
-#our-furniture-h4{
-
+#our-furniture-h4 {
     font-family: poppins;
     margin-left: 20px;
     font-weight: bold;
     margin-top: -10px;
     color: rgb(242, 81, 81);
-
 }
 
-#our-furniture-span,#our-furniture-h4{
-
+#our-furniture-span,
+#our-furniture-h4 {
     float: left;
-   
 }
 
-#our-furniture-span{
-
+#our-furniture-span {
     margin-left: 20vw;
     font-family: poppins;
     margin-top: -10px;
     cursor: pointer;
-
 }
 
-#our-furniture-grid-img:hover{
-
+#our-furniture-grid-img:hover {
     transform: translateY(-10px);
     transition: 0.4s;
-
 }
 
-#our-furniture-grid-img:not(:hover){
-
+#our-furniture-grid-img:not(:hover) {
     transition: 0.3s;
-
 }
 
-#latest-blog-h1{
-
+#latest-blog-h1 {
     text-align: center;
     font-family: poppins;
     font-weight: 900;
-
 }
 
-.latest-blog-grid-container{
-
-    display: grid;
-    grid-template-columns: auto auto auto;
+.latest-blog-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-left: 2%;
-
 }
 
-.latest-blog-img-container{
-
+.latest-blog-img-container {
     margin: 20px;
     box-shadow: 2px 4px 4px 4px rgb(110, 109, 109);
     width: 28vw;
     height: 73vh;
-
 }
 
-#latest-blog-img{
-
+#latest-blog-img {
     width: 28vw;
-
 }
 
-#latest-blog-h2{
-
+#latest-blog-h2 {
     font-family: poppins;
     margin-left: 20px;
-
 }
 
-#latest-blog-p{
-
+#latest-blog-p {
     font-family: poppins;
     margin-left: 18px;
 }
 
-#latest-blog-btn{
-
+#latest-blog-btn {
     width: 130px;
     height: 40px;
     font-family: poppins;
@@ -323,294 +250,453 @@ section{
     background-color: rgb(108, 108, 238);
     border: none;
     font-weight: 500;
-
 }
 
-#latest-blog-btn:hover{
-
+#latest-blog-btn:hover {
     background-color: transparent;
     color: rgb(108, 108, 238);
     border: 2px solid rgb(108, 108, 238);
     transition: 0.4s;
-
 }
 
-#about-us-btn:hover{
-
+#about-us-btn:hover {
     background-color: transparent;
     color: rgb(108, 108, 238);
     border: 2px solid rgb(108, 108, 238);
     transition: 0.4s;
- 
 }
 
-#latest-blog-btn,#about-us-btn:not(:hover){
-
+#latest-blog-btn,
+#about-us-btn:not(:hover) {
     transition: 0.3s;
-
 }
 
-.about-us-inner{
-
+.about-us-inner {
     width: 80%;
     height: 60vh;
     background-color: rgb(247, 247, 247);
     margin-left: 10%;
 }
 
-#about-us-img{
-
+#about-us-img {
     width: 600px;
     height: 350px;
     margin-top: 5%;
-
 }
 
-.about-us-h-p-btn{
-
+.about-us-h-p-btn {
     float: right;
     margin-right: 5vw;
     padding-top: 80px;
-
 }
 
-#about-us-h1{
-
+#about-us-h1 {
     font-family: poppins;
     font-weight: 900;
     font-size: 40px;
-
 }
 
-#about-us-p{
-
+#about-us-p {
     font-family: poppins;
     font-weight: 900;
     font-size: 16px;
-
 }
 
-#about-us-btn{
-
+#about-us-btn {
     width: 150px;
     height: 40px;
-    font-family: poppins;;
+    font-family: poppins;
     color: white;
     background-color: rgb(108, 108, 238);
     border: none;
     font-weight: 500;
     margin-top: 20px;
-
 }
 
-.contact-us-inner{
-
+.contact-us-inner {
     width: 90%;
     height: 80vh;
     background-color: rgb(247, 247, 247);
     margin-left: 5%;
-
 }
 
-#contact-us-h1{
-
+#contact-us-h1 {
     font-family: poppins;
     font-weight: 900;
     font-size: 40px;
-
 }
 
-.contact-us-h-form{
-
+.contact-us-h-form {
     padding-top: 60px;
     margin-left: 60px;
-
 }
 
-#contact-us-input{
-
+#contact-us-input {
     font-family: poppins;
     border: none;
     background-color: white;
     width: 270px;
     height: 40px;
     text-indent: 8px;
-
 }
 
-#contact-us-textarea{
-
+#contact-us-textarea {
     width: 17.5vw;
     height: 20vh;
     font-family: poppins;
     font-size: 12px;
     border: none;
-
 }
 
-#contact-us-btn{
-    
+#contact-us-btn {
     width: 150px;
     height: 50px;
-    font-family: poppins;;
+    font-family: poppins;
     color: white;
     background-color: rgb(108, 108, 238);
     border: none;
     font-weight: 500;
     font-size: 15px;
     cursor: pointer;
-
 }
 
-#contact-us-btn:hover{
-
+#contact-us-btn:hover {
     background-color: transparent;
     color: rgb(108, 108, 238);
     border: 2px solid rgb(108, 108, 238);
     transition: 0.4s;
- 
 }
 
-#contact-us-btn:not(:hover){
-
+#contact-us-btn:not(:hover) {
     transition: 0.3s;
-
 }
 
-#contact-us-input:hover{
-
+#contact-us-input:hover {
     border: 1px solid grey;
-    transition: 0.3s
-
+    transition: 0.3s;
 }
 
-#contact-us-textarea:hover{
-
+#contact-us-textarea:hover {
     border: 1px solid grey;
-    transition: 0.3s
-
+    transition: 0.3s;
 }
 
-#contact-us-iframe{
-
+#contact-us-iframe {
     float: right;
     margin-right: 100px;
     padding-top: -10vh;
     width: 50vw;
-
 }
 
-.footer{
-
+.footer {
     width: 95%;
     height: 62vh;
     background-color: rgb(51, 50, 50);
     margin-left: 2.5%;
-
 }
 
-.footer-row{
-
+.footer-row {
     display: flex;
     flex-wrap: wrap;
     padding-top: 16vh;
-
 }
 
-.footer-col{
-
+.footer-col {
     margin-left: 6vw;
     color: white;
     font-family: poppins;
-
 }
 
-.footer-ul{
-
+.footer-ul {
     list-style-type: none;
-
 }
 
-#footer-h3{
-
+#footer-h3 {
     font-size: 25px;
-
 }
 
-
-#grid-img{
-
+#grid-img {
     font-size: 16px;
-
 }
 
-#footer-input{
-
+#footer-input {
     width: 250px;
     height: 35px;
     text-indent: 8px;
-
 }
 
-#grid-img{
-
+#grid-img {
     border-radius: 10px;
     padding: 5px;
     cursor: pointer;
-
 }
 
-
-#footer-input-btn{
-    
+#footer-input-btn {
     width: 120px;
     height: 40px;
-    font-family: poppins;;
+    font-family: poppins;
     color: white;
     background-color: rgb(160, 160, 231);
     border: none;
     font-weight: 500;
     font-size: 13px;
     cursor: pointer;
-
 }
 
-#footer-input-btn:hover{
-
+#footer-input-btn:hover {
     background-color: transparent;
     color: rgb(160, 160, 231);
     border: 2px solid rgb(160, 160, 231);
     transition: 0.4s;
- 
 }
 
-#footer-input-btn:not(:hover){
-
+#footer-input-btn:not(:hover) {
     transition: 0.3s;
-
 }
 
-#grid-img:hover{
-
+#grid-img:hover {
     transform: rotate(360deg);
     transition: 1s;
-
 }
 
-#grid-img:not(:hover){
-
+#grid-img:not(:hover) {
     transition: 1s;
-
 }
 
-#footer-li:hover{
-
+#footer-li:hover {
     color: rgb(247, 183, 63);
-
 }
 
-#footer-input:focus{
-
+#footer-input:focus {
     background-color: rgb(213, 220, 227);
+}
 
+/* Media Queries for Responsiveness */
+
+/* Mobile Devices (up to 425px) */
+@media (max-width: 425px) {
+    .navbar-main {
+        display: none;
+    }
+
+    .fir-body {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #fir-body-h1 {
+        padding-top: 50px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    #fir-body-p {
+        margin-left: 20px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #fir-body-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .our-furniture-grid-container {
+        padding-top: 20px;
+    }
+
+    .our-furniture-grid-img-container {
+        margin: 10px;
+        height: auto;
+    }
+
+    #our-furniture-grid-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .latest-blog-img-container {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+    }
+
+    #latest-blog-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-us-inner {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    #about-us-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-us-h-p-btn {
+        float: none;
+        margin-right: 0;
+        padding-top: 20px;
+    }
+
+    .contact-us-inner {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .contact-us-h-form {
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+
+    #contact-us-input {
+        width: 90%;
+    }
+
+    #contact-us-textarea {
+        width: 90%;
+    }
+
+    #contact-us-iframe {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .footer-row {
+        padding-top: 20px;
+    }
+
+    .footer-col {
+        margin-left: 5vw;
+    }
+}
+
+/* Tablet Devices (up to 768px) */
+@media (max-width: 768px) {
+    .fir-body {
+        width: 90%;
+        margin-left: 5%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #fir-body-h1 {
+        padding-top: 50px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    #fir-body-p {
+        margin-left: 20px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #fir-body-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .our-furniture-grid-container {
+        padding-top: 20px;
+    }
+
+    .our-furniture-grid-img-container {
+        margin: 10px;
+        height: auto;
+    }
+
+    #our-furniture-grid-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .latest-blog-img-container {
+        width: 45%;
+        height: auto;
+        margin: 10px;
+    }
+
+    #latest-blog-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-us-inner {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    #about-us-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-us-h-p-btn {
+        float: none;
+        margin-right: 0;
+        padding-top: 20px;
+    }
+
+    .contact-us-inner {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .contact-us-h-form {
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+
+    #contact-us-input {
+        width: 90%;
+    }
+
+    #contact-us-textarea {
+        width: 90%;
+    }
+
+    #contact-us-iframe {
+        float: none;
+        margin-right: 0;
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer {
+        width: 90%;
+        height: auto;
+        margin-left: 5%;
+    }
+
+    .footer-row {
+        padding-top: 20px;
+    }
+
+    .footer-col {
+        margin-left: 5vw;
+    }
 }
